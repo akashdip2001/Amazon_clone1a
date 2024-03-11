@@ -22,10 +22,12 @@
     width: 100px;
 }
 .border{
+    
     border: 2px solid transparent;
     border-radius:3px;
 }
 .border:hover{
+    
     border: 2px solid white;
     
 }
@@ -79,8 +81,19 @@
 }
 .nav-search:hover{
     border: 2px solid #febd68;
+    box-sizing: border-box;
 }
-/** Box4 **/
+/** Box4**/
+.map{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-map{
+    background-color:#0f1111;
+    color:white;
+    border: none;
+}
+/** Box5 **/
 span{
     font-size: 0.7rem;
 }
@@ -105,7 +118,11 @@ span{
     display: flex;
     color: white;
     align-items:center;
-    justify-content: space-evenly;
+    /**justify-content: space-evenly;**/
+}
+
+.panal-all{
+    margin-left: 20px;
 }
 .panel-ops p{
     display: inline;
@@ -116,23 +133,26 @@ span{
     font-size: 0.85rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    gap:20px;
+    
+    /**justify-content: space-evenly;**/
 }
+
 
 .panel-deals{
      font-size: 0.9rem;
      font-weight: 700;
 }
+.link_1{
+    text-decoration:none;
+}
 .hero-section{
     background-image: url("Background_Image_1.jpg");
     background-size: cover;
-    height: 310px;
+    height: 710px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
-    
-
 }
 .hero-msg{
     background-color: white;
@@ -143,7 +163,7 @@ span{
     justify-content:center;
     font-size:0.85rem;
     width: 95%;
-    margin: 25px;
+    margin-bottom: 375px;
     
 }
 .hero-msg a{
@@ -154,7 +174,7 @@ span{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    background-color:rgb(230, 167, 215);
+    background-color:rgb(227, 179, 215);
 }
 .box{
     
@@ -162,8 +182,26 @@ span{
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 15px;
+    margin-top: -340px;
     
+}
+.shop-section_2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:rgb(237, 192, 227);
+}
+.boxx{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 25px;
+    
+}
+.first_box{
+    font-size:20px;
 }
 .image{
     height:300px;
@@ -177,4 +215,17 @@ span{
 }
 .box-content p{
     color:rgb(71, 169, 207);
+}
+.footer{
+    padding:100px;
+    background-color:#212638;
+    align-items:center;
+}
+.footer-content{
+    background-color:#212638;
+    color: white;
+    display:flex;
+    justify-content:center;
+    /**height:10px;**/
+   /** margin-bottom: 10px;**/
 }
